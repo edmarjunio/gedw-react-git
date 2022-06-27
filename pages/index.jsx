@@ -1,7 +1,11 @@
+import Title from '../src/components/title/Title'
+import Subtitle from '../src/components/subtitle/Subtitle'
+
 function MengaoLandingPage () {
     return (
         <>
-        NOTICIÁRIO DO MENGÃO
+        <Title text="NOTICIÁRIO DO MENGÃO"/>
+        <Subtitle text ="O seu site de notícias do nosso Flamengo!"/>
         </>
     )
 }
