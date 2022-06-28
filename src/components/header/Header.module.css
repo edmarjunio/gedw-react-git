@@ -1,0 +1,19 @@
+.header {
+    min-height: 40vh;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+
+    background: url('https://pbs.twimg.com/media/ExlotruWQAkmsVx?format=jpg&name=large');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.headerContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}

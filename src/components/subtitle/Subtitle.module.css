@@ -1,5 +1,8 @@
 .subtitle {
     color: red;
-    font-weight: lighter;
-    text-align: center;
+    font-weight: lighter;    
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

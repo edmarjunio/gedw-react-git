@@ -1,7 +1,16 @@
-function Header () {
+import styles from './Header.module.css'
+
+function Header ({children}) {
     return (
-        <header>
-            Header
+        <header
+        className={styles.header}
+        >
+            <div className={styles.headerContent}>
+            {children}
+            </div>
+            
         </header>
     )
 }
+
+export default Header

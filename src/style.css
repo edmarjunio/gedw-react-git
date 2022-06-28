@@ -8,3 +8,9 @@ body {
     font-family: 'Barlow', sans-serif;
     
 }
+
+.subscribersContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -5,6 +5,7 @@ import Head from 'next/head'
 import Title from '../src/components/title/Title'
 import Subtitle from '../src/components/subtitle/Subtitle'
 import Button from '../src/components/button/Button'
+import Header from '../src/components/header/Header'
 
 function MengaoLandingPage () {
 
@@ -17,6 +18,7 @@ function MengaoLandingPage () {
 
     return (
         <>
+        <Header />
         <Head>
             <title>Noticiário do MENGÃO</title>
         </Head>
