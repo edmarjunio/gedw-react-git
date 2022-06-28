@@ -1,9 +1,11 @@
 import styles from './Subtitle.module.css'
 
-function Subtitle ({text}) {
+function Subtitle ({children}) {
     return (
 
-        <h3 className={styles.subtitle}>{text}</h3>
+        <h3 className={styles.subtitle}>
+            {children}
+        </h3>
     )
 }
 

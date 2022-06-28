@@ -1,10 +1,10 @@
 import styles from './Title.module.css'
 
-function Title ({text}) {
+function Title ({children}) {
 
     return (
         <h1 className={styles.title}>
-            {text}
+            {children}
         </h1>
     )
 }
