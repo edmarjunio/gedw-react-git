@@ -1,8 +1,13 @@
 .noticesImage {
-    background-image: url('https://static-wp-tor15-prd.torcedores.com/wp-content/uploads/2016/07/FLAMENGO1.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    
+    
+    width: 100%;
     
 }
 
@@ -10,9 +15,33 @@
     color: white;
     text-align: center;
     padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
 }
 
 .noticesContent {
     display: flex;
-    justify-content: space-around;
+    margin-top: 30px;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+    ;
 }
+
+.noticesTextContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.itemFlex50 {
+    flex-basis: 50%;
+    max-width: 50%;
+    
+}
+
