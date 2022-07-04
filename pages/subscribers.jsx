@@ -5,6 +5,7 @@ import Subtitle from '../src/components/subtitle/Subtitle'
 import Header from '../src/components/header/Header'
 import Button from '../src/components/button/Button'
 import Notices from '../src/components/notices/Notices'
+import LastNews from '../src/components/lastNews/LastNews'
 
 function Subscribers () {
     return (
@@ -17,6 +18,7 @@ function Subscribers () {
         <Subtitle>Obrigado por fazer parte!</Subtitle>
         <Button>IR PARA LOJA</Button>
         <Notices></Notices>
+        <LastNews />
                
         </>
     )
