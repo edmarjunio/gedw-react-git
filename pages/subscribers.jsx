@@ -17,7 +17,7 @@ function Subscribers () {
         <Title>NOTICIÁRIO DO MENGÃO</Title>
         <Subtitle>Obrigado por fazer parte!</Subtitle>
         <Button>IR PARA LOJA</Button>
-        <Notices></Notices>
+        <Notices />
         <LastNews />
                
         </>

@@ -1,0 +1,10 @@
+.lastNews { 
+    display: flex;
+    justify-content: space-between;    
+}
+
+.cardImage {
+    width: 350px;
+    height: 500px;
+    object-fit: cover;
+}
