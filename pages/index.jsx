@@ -22,7 +22,7 @@ function MengaoLandingPage () {
         <Head>
             <title>Noticiário do MENGÃO</title>
         </Head>
-        <Title>NOTICIÁRIO DO FLAMENGO</Title>
+        <Title>NOTICIÁRIO DO MENGÃO</Title>
         <Subtitle> O seu site de notícias, do nosso Flamengo!</Subtitle>
         <Button onClick={handleClick}>ASSINE AGORA!!!</Button>
         <Subtitle>Assinantes: {subscribers}</Subtitle>
